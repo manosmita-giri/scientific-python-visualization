@@ -1,8 +1,10 @@
-# scientific-python-visualization
-Scientific plotting and data analysis using Python, NumPy, and Matplotlib
-## Example Results
+# Scientific Plotting and Data Analysis Using Python
 
-The following figures illustrate how Python can be used to visualize scientific profiles as a function of height. These are **synthetic demonstration data**, not actual solar observations or simulation results.
+This project demonstrates scientific data visualization using Python, NumPy, and Matplotlib. It generates illustrative temperature, density, and vertical velocity profiles as functions of height.
+
+**Note:** The plots use synthetic demonstration data. They do not represent actual solar observations or radiative MHD simulation results.
+
+## Example Results
 
 ### Temperature Profile
 
@@ -15,15 +17,38 @@ The following figures illustrate how Python can be used to visualize scientific 
 ### Vertical Velocity Profile
 
 ![Vertical Velocity Profile](./velocity_profile.png)
+
 ## Skills Demonstrated
 
 - Python programming
 - NumPy for numerical arrays
 - Matplotlib for scientific visualization
-- Organizing reproducible scientific code
+- Reproducible scientific code organization
+
+## Requirements
+
+- Python
+- NumPy
+- Matplotlib
+
+## How to Run
+
+Install the required libraries:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Run the plotting script:
+
+```bash
+python plot_profiles.py
+```
+
+The script generates the example plots in the `figures` folder on your computer.
 
 ## Future Improvements
 
-- Apply the plotting workflow to real radiative MHD simulation data, subject to data and supervisor permissions.
-- Add physical units and improve plot labels.
+- Apply the plotting workflow to radiative MHD simulation data, subject to data and supervisor permissions.
+- Improve plot labels and document physical units.
 - Explore diagnostics relevant to solar atmospheric structures.
