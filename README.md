@@ -4,17 +4,11 @@ Scientific plotting and data analysis using Python, NumPy, and Matplotlib
 
 The following figures illustrate how Python can be used to visualize scientific profiles as a function of height. These are **synthetic demonstration data**, not actual solar observations or simulation results.
 
-### Temperature Profile
+![Temperature Profile](./figures/temperature_profile.png)
 
-![Illustrative temperature profile](figures/temperature_profile.png)
+![Density Profile](./figures/density_profile.png)
 
-### Density Profile
-
-![Illustrative density profile](figures/density_profile.png)
-
-### Vertical Velocity Profile
-
-![Illustrative vertical velocity profile](figures/vertical_velocity_profile.png)
+![Velocity Profile](./figures/velocity_profile.png)
 
 ## Skills Demonstrated
 
